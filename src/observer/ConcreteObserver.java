@@ -14,7 +14,7 @@ public class ConcreteObserver implements Observer{
         //更新观察者的状态，使其与目标的状态保持一致
         observerState = state;
 
-        System.out.println("观察者改变状态为："+observerState);
+        System.out.println("ConcreteObserver--观察者改变状态为："+observerState);
 
     }
 }

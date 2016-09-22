@@ -16,7 +16,7 @@ public class ConcreteObserver1 implements Observer{
          */
         observerState1 = state;
 
-        System.out.println("观察者1改变状态为："+observerState1);
+        System.out.println("ConcreteObserver1--观察者改变状态为："+observerState1);
 
     }
 }

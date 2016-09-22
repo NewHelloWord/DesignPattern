@@ -59,7 +59,7 @@ public class Singleton {
 //    }
 
 
-    
+
     //  5、static inner class thread-safety （静态内部类，线程安全）
     private static class SingletonHolder{
         private static final Singleton instance = new Singleton();

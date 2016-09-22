@@ -16,6 +16,6 @@ public class Test {
         subject.attach(observer1);
 
         //改变主题对象的状态
-        subject.change("this is my new state---");
+        subject.change("this is my new state");
     }
 }

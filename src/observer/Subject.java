@@ -28,8 +28,11 @@ public abstract class Subject{
      */
     public void delete(Observer observer){
 
-        list.remove(observer);
-        System.out.println("delete an observer ---- 删除一个观察者");
+        int i = list.indexOf(observer);
+        if(i >= 0){
+            list.remove(observer);
+            System.out.println("delete an observer ---- 删除一个观察者");
+        }
     }
 
     /**
