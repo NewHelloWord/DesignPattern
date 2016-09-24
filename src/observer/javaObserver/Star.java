@@ -14,7 +14,7 @@ public class Star extends Observable {
     }
 
     public void inTrouble(String troubleName){
-        System.out.println(this.getName()+"："+troubleName);
+        System.out.println(name+"："+troubleName);
         setChanged();
         notifyObservers(troubleName);
     }

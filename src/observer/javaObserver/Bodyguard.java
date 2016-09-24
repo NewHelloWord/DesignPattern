@@ -18,7 +18,7 @@ public class Bodyguard implements Observer {
     public void update(Observable o, Object arg) {
         if(o instanceof Star){
             Star star = (Star)o;
-            System.out.println(this.getName()+"收到通知："+star.getName()+"遇到麻烦 "+arg);
+            System.out.println(name+"收到通知："+star.getName()+"遇到麻烦 "+arg);
         }
     }
 
