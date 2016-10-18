@@ -1,13 +1,13 @@
 package adapter.objectAdapter;
 
-import adapter.classAdapter.Adapee;
+import adapter.classAdapter.Adaptee;
 
 public class Adapter{
 
-    private Adapter adapter ;
+    private Adaptee adaptee ;
 
-    public Adapter(Adapter adapter){
-        this.adapter = adapter;
+    public Adapter(Adaptee adaptee){
+        this.adaptee = adaptee;
     }
 
     /**
@@ -15,7 +15,7 @@ public class Adapter{
      * 因此适配器类直接委派即可
      */
     public void adapeeMethod(){
-        this.adapter.adapeeMethod();
+        this.adaptee.adapteeMethod();
     }
 
     /**

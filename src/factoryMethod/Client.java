@@ -16,8 +16,8 @@ public class Client {
 
         //-----------------------------
 
-        GenericFactory gf = new GenericShoesFactory();
-        gf.create(Slipper.class).type();
+        //GenericFactory gf = new GenericShoesFactory();
+        //gf.create(Slipper.class).type();
 
     }
 }
